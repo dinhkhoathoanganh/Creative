@@ -1,0 +1,41 @@
+<scene>
+    <group>
+        <group name="neck" from="scenegraphs/bird/bird-neck.xml"/>
+
+        <group name="wings">
+            <transform>
+                <set>
+                    <translate>0 -9.4 0</translate>
+                </set>
+                <group>
+                    <transform>
+                        <set>
+                            <translate>0.1 0 0</translate>
+                        </set>
+                        <group name="right-wing" from="scenegraphs/bird/bird-wing.xml">
+                        </group>
+                    </transform>
+
+                    <group>
+                        <transform>
+                            <set>
+                                <translate>-0.1 0 0</translate>
+                                <scale>-1.0 1.0 1.0</scale>
+                            </set>
+                            <group name="left-wing" from="scenegraphs/bird/bird-wing.xml">
+                            </group>
+                        </transform>
+                    </group>
+                </group>
+            </transform>
+        </group>
+        <group name="tail">
+            <transform>
+                <set>
+                    <translate>0 -13 0</translate>
+                </set>
+                <group from="scenegraphs/bird/bird-tail.xml"/>
+            </transform>
+        </group>
+    </group>
+</scene>

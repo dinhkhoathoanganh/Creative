@@ -1,0 +1,182 @@
+<scene>
+    <instance name="sphere" path="models/sphere"/>
+    <instance name="box" path="models/box-outside"/>
+    <image name="white" path="textures/white.png"/>
+
+    <group>
+        <transform>
+            <set>
+                <translate>1 0 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml">
+            </group>
+        </transform>
+        <transform>
+            <set>
+                <translate>1 -1.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>1 -2.4 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>2.7 -1.7 0</translate>
+                <rotate>90 0 0 1</rotate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>3.9 -1.7 0</translate>
+                <rotate>90 0 0 1</rotate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>5.1 -1.7 0</translate>
+                <rotate>90 0 0 1</rotate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>6.8 -1.7 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-square.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>8.5 -1.7 0</translate>
+                <rotate>90 0 0 1</rotate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>10.2 -2.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>11.9 -2.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>13.1 -2.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>14.8 -2.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>2.7 0 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>3.9 0 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>5.1 0 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>6.8 0 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>8.5 0 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>10.2 1.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>12.4 1.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>14.1 1.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>14.1 0.0 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>14.1 -1.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>15.8 1.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>15.8 0.0 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>15.8 -1.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-double.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>17.5 1.2 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+
+        <transform>
+            <set>
+                <translate>10.2 -0.5 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-square.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>12.4 -0.5 0</translate>
+            </set>
+            <group from="scenegraphs/bird/bird-square.xml"/>
+        </transform>
+    </group>
+</scene>

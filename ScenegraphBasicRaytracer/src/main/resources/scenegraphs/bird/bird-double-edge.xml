@@ -1,0 +1,22 @@
+<scene>
+    <instance name="box" path="models/box-outside"/>
+    <image name="white" path="textures/white.png"/>
+
+    <transform>
+        <set>
+            <scale>2.2 1 1</scale>
+        </set>
+        <object instanceof="box">
+            <material>
+                <ambient>0.55 0.86 0.36</ambient>
+                <diffuse>0.55 0.86 0.36</diffuse>
+                <specular>0.7 0.7 0.7</specular>
+                <shininess>100</shininess>
+                <absorption>1.0</absorption>
+                <reflection>0.5</reflection>
+                <transparency>0.0</transparency>
+                <refractive>0</refractive>
+            </material>
+        </object>
+    </transform>
+</scene>

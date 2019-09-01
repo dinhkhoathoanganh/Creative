@@ -1,0 +1,36 @@
+<scene>
+    <instance name="sphere" path="models/sphere"/>
+    <instance name="box" path="models/box-outside"/>
+    <image name="white" path="textures/white.png"/>
+
+    <group>
+        <transform>
+            <set>
+                <translate>0 -4.6 0</translate>
+                <scale>1 1 1</scale>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>0 -5.8 0</translate>
+                <scale>1 1 1</scale>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>0 -7 0</translate>
+                <scale>1 1 1</scale>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+        <transform>
+            <set>
+                <translate>0 -8.2 0</translate>
+                <scale>1 1 1</scale>
+            </set>
+            <group from="scenegraphs/bird/bird-single.xml"/>
+        </transform>
+    </group>
+</scene>
